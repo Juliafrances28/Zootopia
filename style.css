@@ -1,4 +1,4 @@
-#quote {
+.quote {
   color: red;
   margin: auto;
   width: 50%;
@@ -8,16 +8,15 @@
 }
 
 .rabbit {
-  color: red;
   margin: auto;
   width: 50%;
-  border: 3px solid;
   padding: 10px;
-  float: center;
+  float: right;
 }
 
 .zoo {
-  text-decoration: bold;
+  text-decoration-style: bold;
+  margin-bottom: 10px;
 }
 
 .movie {
