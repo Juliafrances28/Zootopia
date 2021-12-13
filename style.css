@@ -1,11 +1,25 @@
 #quote {
   color: red;
-  float: left;
-  
+  margin: auto;
+  width: 50%;
+  border: 3px solid;
+  padding: 10px;
+  float: center;
 }
 
-/* text wrap qoute and video ? */
+.rabbit {
+  color: red;
+  margin: auto;
+  width: 50%;
+  border: 3px solid;
+  padding: 10px;
+  float: center;
+}
 
 .zoo {
   text-decoration: bold;
+}
+
+.movie {
+  background-color: Gray;
 }
