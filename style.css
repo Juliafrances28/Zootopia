@@ -1,18 +1,26 @@
 /* This property is for arranging the colunms in row one */
 
 .rabbit {
-  display: flex;
-  column-gap: 10px;
-  column-count: 3;
-  column-span: all;
+  padding: 10px;
+  column-count: 2;
+  text-orientation: 3px solid;
 }
 
-/* This property is for the paragraphs in the first columsn  */
+/* This property is for the image of the main character Judy Hopps  */
+.Judy {
+  width: 50%;
+  padding: 10px;
+  float: left;
+}
+
+/* This property is for the paragraphs in the second column  */
 .carrot {
   border: 3px solid;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
-/* This property is for the the first video */
+/* This property is for the the music video for the movie */
 .police {
   display: flex;
   margin: auto;
@@ -24,10 +32,11 @@
 .quote {
   color: red;
   /* margin: auto; */
-  width: 50%;
+  width: 30%;
   border: 3px solid;
-  /* padding: 10px; */
-  float: center;
+  /* padding-bottom: 10px; */
+  margin-bottom: 5px;
+  float: right;
 }
 
 /* This property is for the background of the site */
@@ -38,14 +47,6 @@
 /* This property is not being used right now, but it was for the second video */
 /* .fox {
   margin: left;
-} */
-
-/* This property is not being used right now. There is no Judy class in the html file.  */
-/* .Judy {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-  float: right;
 } */
 
 /* This is an attempt to make the word zootopia in my qoute be bold */
