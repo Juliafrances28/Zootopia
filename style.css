@@ -1,3 +1,26 @@
+/* This property is for arranging the colunms in row one */
+
+.rabbit {
+  display: flex;
+  column-gap: 10px;
+  column-count: 3;
+  column-span: all;
+}
+
+/* This property is for the paragraphs in the first columsn  */
+.carrot {
+  border: 3px solid;
+}
+
+/* This property is for the the first video */
+.police {
+  display: flex;
+  margin: auto;
+  padding-top: 2em;
+}
+
+/* This is for the second row, includes video and qoute*/
+
 .quote {
   color: red;
   /* margin: auto; */
@@ -7,33 +30,25 @@
   float: center;
 }
 
+/* This property is for the background of the site */
+.movie {
+  background-color: Gray;
+}
+
+/* This property is not being used right now, but it was for the second video */
 /* .fox {
   margin: left;
 } */
 
-.Judy {
+/* This property is not being used right now. There is no Judy class in the html file.  */
+/* .Judy {
   margin: auto;
   width: 50%;
   padding: 10px;
   float: right;
-}
+} */
 
-.rabbit {
-  display: flex;
-  column-gap: 10px;
-}
-
-.police {
-  display: flex;
-  /* margin-left: 250px; */
-  margin: auto;
-  padding-top: 2em;
-}
-
-.zoo {
+/* This is an attempt to make the word zootopia in my qoute be bold */
+/* .zoo {
   text-decoration-style: bold;
-}
-
-.movie {
-  background-color: Gray;
-}
+} */
