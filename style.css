@@ -29,14 +29,23 @@
 
 /* This is for the second row, includes video and qoute*/
 
-.quote {
+/* .quote {
   color: red;
-  /* margin: auto; */
+   margin: auto; 
   width: 30%;
   border: 3px solid;
-  /* padding-bottom: 10px; */
+  padding-bottom: 10px;
   margin-bottom: 5px;
-  float: right;
+  float: center;
+} */
+
+.quote {
+  color: red;
+  width: 30%;
+  border: 3px solid;
+  padding-bottom: 10px;
+  margin: auto;
+  float: center;
 }
 
 /* This property is for the background of the site */
