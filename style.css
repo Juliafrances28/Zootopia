@@ -38,6 +38,11 @@
   float: center;
 }
 
+/* This is the property for the fox video  */
+.fox {
+  margin-left: 10px;
+}
+
 /* This property is for the background of the site */
 .movie {
   background-color: Gray;
@@ -52,4 +57,5 @@
 .zoo {
   width: 40%;
   padding: 5em;
+  float: center;
 }
