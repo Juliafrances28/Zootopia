@@ -27,23 +27,13 @@
   padding-top: 2em;
 }
 
-/* This is for the second row, includes video and qoute*/
-
-/* .quote {
-  color: red;
-   margin: auto; 
-  width: 30%;
-  border: 3px solid;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-  float: center;
-} */
+/* This is for the second row, styling for the qoute only */
 
 .quote {
   color: red;
   width: 30%;
   border: 3px solid;
-  padding-bottom: 10px;
+  padding: 2em;
   margin: auto;
   float: center;
 }
@@ -58,7 +48,8 @@
   margin: left;
 } */
 
-/* This is an attempt to make the word zootopia in my qoute be bold */
-/* .zoo {
-  text-decoration-style: bold;
-} */
+/* This is for the title picture */
+.zoo {
+  width: 40%;
+  padding: 5em;
+}
